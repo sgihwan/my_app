@@ -122,7 +122,7 @@ export default function Home() {
                 <div className="bg-white p-4 dark:bg-gray-950">
                   <h3 className="font-bold text-xl">Packaging Design for ABC Corp</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Created a unique and eye-catching packaging design for ABC Corp's new product line.
+                    Created a unique and eye-catching packaging design for ABC Corp&apos;s new product line.
                   </p>
                 </div>
               </div>
