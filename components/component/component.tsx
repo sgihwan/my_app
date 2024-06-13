@@ -20,6 +20,7 @@ To read more about using these font, please visit the Next.js documentation:
 import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
+import { JSX, SVGProps } from "react"
 
 export function Component() {
   return (
@@ -247,7 +248,7 @@ export function Component() {
   )
 }
 
-function MountainIcon(props) {
+function MountainIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
