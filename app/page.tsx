@@ -16,7 +16,7 @@ export default function Home() {
             X(twitter)
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-            inster gram
+            instagram
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
             
@@ -37,10 +37,10 @@ export default function Home() {
               <div className="flex flex-col items-start space-y-4">
                 <div className="space-y-2">
                   <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-                    성기환/sung gi hwan
+                    성기환/Sung Gi Hwan
                   </h1>
                   <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                    2D 케릭터 컨셉 아티스트 
+                    2D 캐릭터 컨셉 아티스트 
                   </p>
                 </div>
               </div>
@@ -74,7 +74,7 @@ export default function Home() {
                   width={500}
                 />
                 <div className="bg-white p-4 dark:bg-gray-950">
-                  <h3 className="font-bold text-xl">케릭터 일러스트</h3>
+                  <h3 className="font-bold text-xl">캐릭터 일러스트</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
                     두상 일러스트
                   </p>
@@ -96,7 +96,7 @@ export default function Home() {
                   width={500}
                 />
                 <div className="bg-white p-4 dark:bg-gray-950">
-                  <h3 className="font-bold text-xl">케릭터 컨셉 일러스트</h3>
+                  <h3 className="font-bold text-xl">캐릭터 컨셉 일러스트</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
                     인형 회복술사
                   </p>
@@ -118,7 +118,7 @@ export default function Home() {
                   width={500}
                 />
                 <div className="bg-white p-4 dark:bg-gray-950">
-                  <h3 className="font-bold text-xl">케릭터 컨셉 일러스트</h3>
+                  <h3 className="font-bold text-xl">캐릭터 컨셉 일러스트</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
                     용족 컨셉 케릭터 디자인
                   </p>
@@ -140,9 +140,9 @@ export default function Home() {
                   width={500}
                 />
                 <div className="bg-white p-4 dark:bg-gray-950">
-                  <h3 className="font-bold text-xl">케릭터 컨셉 일러스트</h3>
+                  <h3 className="font-bold text-xl">캐릭터 컨셉 일러스트</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    어쎄신 컨셉 케릭터 디자인
+                    어쎄신 컨셉 캐릭터 디자인
                   </p>
                 </div>
               </div>
@@ -162,7 +162,7 @@ export default function Home() {
                   width={500}
                 />
                 <div className="bg-white p-4 dark:bg-gray-950">
-                  <h3 className="font-bold text-xl">케릭터 컨셉 일러스트</h3>
+                  <h3 className="font-bold text-xl">캐릭터 컨셉 일러스트</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
                     기사 컨셉 디자인
                   </p>
@@ -184,7 +184,7 @@ export default function Home() {
                   width={500}
                 />
                 <div className="bg-white p-4 dark:bg-gray-950">
-                  <h3 className="font-bold text-xl">케릭터 디자인</h3>
+                  <h3 className="font-bold text-xl">캐릭터 디자인</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
                     마녀 케릭터 일러스트
                   </p>
