@@ -1,12 +1,11 @@
 import { JSX, SVGProps } from "react";
-import Link from "next/link"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-
+import Link from "next/link";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-<div className="flex flex-col min-h-dvh">
+    <div className="flex flex-col min-h-dvh">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="#">
           <MountainIcon className="size-6" />
@@ -25,14 +24,14 @@ export default function Home() {
         </nav>
       </header>
       <main className="flex-1">
-        <section className="w-full pt-12 md:pt-24 lg:pt-32">
+        <section className="w-full pt-12 md:pt-24 lg:pt-32 flex justify-center items-center">
           <div className="container space-y-10 xl:space-y-16">
             <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
               <img
                 alt="Hero"
                 className="mx-auto aspect-[3/2] overflow-hidden rounded-xl object-cover"
                 height="600"
-                src="/placeholder.svg"
+                src="/gh1.jpg" // 이미지 파일 경로 수정
                 width="1200"
               />
               <div className="flex flex-col items-start space-y-4">
@@ -49,7 +48,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-24 lg:py-32 flex justify-center items-center">
           <div className="container space-y-12 px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -68,7 +67,7 @@ export default function Home() {
                   alt="Project 1"
                   className="object-cover w-full h-64"
                   height={400}
-                  src="/placeholder.svg"
+                  src="/gh2.jpg" // 이미지 파일 경로 수정
                   style={{
                     aspectRatio: "500/400",
                     objectFit: "cover",
@@ -90,7 +89,7 @@ export default function Home() {
                   alt="Project 2"
                   className="object-cover w-full h-64"
                   height={400}
-                  src="/placeholder.svg"
+                  src="/gh3.jpg" // 이미지 파일 경로 수정
                   style={{
                     aspectRatio: "500/400",
                     objectFit: "cover",
@@ -112,7 +111,7 @@ export default function Home() {
                   alt="Project 3"
                   className="object-cover w-full h-64"
                   height={400}
-                  src="/placeholder.svg"
+                  src="/gh4.jpg" // 이미지 파일 경로 수정
                   style={{
                     aspectRatio: "500/400",
                     objectFit: "cover",
@@ -134,7 +133,7 @@ export default function Home() {
                   alt="Project 4"
                   className="object-cover w-full h-64"
                   height={400}
-                  src="/placeholder.svg"
+                  src="/gh5.jpg" // 이미지 파일 경로 수정
                   style={{
                     aspectRatio: "500/400",
                     objectFit: "cover",
@@ -156,7 +155,7 @@ export default function Home() {
                   alt="Project 5"
                   className="object-cover w-full h-64"
                   height={400}
-                  src="/placeholder.svg"
+                  src="/gh6.jpg" // 이미지 파일 경로 수정
                   style={{
                     aspectRatio: "500/400",
                     objectFit: "cover",
@@ -178,7 +177,7 @@ export default function Home() {
                   alt="Project 6"
                   className="object-cover w-full h-64"
                   height={400}
-                  src="/placeholder.svg"
+                  src="/gh7.jpg" // 이미지 파일 경로 수정
                   style={{
                     aspectRatio: "500/400",
                     objectFit: "cover",
@@ -196,36 +195,38 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className="bg-gray-100 p-6 md:py-12 w-full dark:bg-gray-800">
-        <div className="container max-w-7xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-sm">
-          <div className="grid gap-1">
-            <h3 className="font-semibold">Contact Us</h3>
-            <p>
-              Graphic East
-              <br />
-              123 Main Street
-              <br />
-              Anytown, USA 12345
-              <br />
-              info@graphiceast.com
-            </p>
+      <div className="flex justify-center items-center min-h-[100vh]">
+        <footer className="bg-gray-100 p-6 md:py-12 w-full max-w-7xl dark:bg-gray-800">
+          <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-sm">
+            <div className="grid gap-1">
+              <h3 className="font-semibold">Contact Us</h3>
+              <p>
+                Graphic East
+                <br />
+                123 Main Street
+                <br />
+                Anytown, USA 12345
+                <br />
+                info@graphiceast.com
+              </p>
+            </div>
+            <div className="grid gap-1">
+              <h3 className="font-semibold">Quick Links</h3>
+              <Link href="#">Home</Link>
+              <Link href="#">Work</Link>
+              <Link href="#">About</Link>
+              <Link href="#">Contact</Link>
+            </div>
+            <div className="grid gap-1">
+              <h3 className="font-semibold">Get in Touch</h3>
+              <form className="flex space-x-2">
+                <Input className="max-w-lg flex-1" placeholder="Enter your email" type="email" />
+                <Button type="submit">Submit</Button>
+              </form>
+            </div>
           </div>
-          <div className="grid gap-1">
-            <h3 className="font-semibold">Quick Links</h3>
-            <Link href="#">Home</Link>
-            <Link href="#">Work</Link>
-            <Link href="#">About</Link>
-            <Link href="#">Contact</Link>
-          </div>
-          <div className="grid gap-1">
-            <h3 className="font-semibold">Get in Touch</h3>
-            <form className="flex space-x-2">
-              <Input className="max-w-lg flex-1" placeholder="Enter your email" type="email" />
-              <Button type="submit">Submit</Button>
-            </form>
-          </div>
-        </div>
-      </footer>
+        </footer>
+      </div>
     </div>
   );
 }
@@ -246,6 +247,5 @@ function MountainIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) 
     >
       <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
     </svg>
-  )
+  );
 }
-
