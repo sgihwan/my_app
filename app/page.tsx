@@ -16,7 +16,7 @@ export default function Home() {
             X(twitter)
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-            instagram
+            Instagram
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
             
