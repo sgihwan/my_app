@@ -12,13 +12,24 @@ export default function Home() {
           <span className="sr-only">Graphic East</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+          <Link 
+            className="text-sm font-medium hover:underline underline-offset-4" 
+            href="https://twitter.com/_GYEON_HWA"
+            target="_blank"  // 새 창에서 열기 위해 추가
+          >
             X(twitter)
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+          <Link 
+            className="text-sm font-medium hover:underline underline-offset-4" 
+            href="https://www.instagram.com/gyeon._hwa"
+            target="_blank"  // 새 창에서 열기 위해 추가
+          >
             Instagram
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+          <Link 
+            className="text-sm font-medium hover:underline underline-offset-4" 
+            href="#"
+          >
             
           </Link>
         </nav>
@@ -57,175 +68,170 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
-              <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
-                <Link className="absolute inset-0 z-10" href="#">
-                  <span className="sr-only">View Project</span>
-                </Link>
-                <img
-                  alt="Project 1"
-                  className="object-cover w-full h-64"
-                  height={400}
-                  src="/gh2.jpg" // 이미지 파일 경로 수정
-                  style={{
-                    aspectRatio: "500/400",
-                    objectFit: "cover",
-                  }}
-                  width={500}
-                />
-                <div className="bg-white p-4 dark:bg-gray-950">
-                  <h3 className="font-bold text-xl">캐릭터 일러스트</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    두상 일러스트
-                  </p>
-                </div>
-              </div>
-              <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
-                <Link className="absolute inset-0 z-10" href="#">
-                  <span className="sr-only">View Project</span>
-                </Link>
-                <img
-                  alt="Project 2"
-                  className="object-cover w-full h-64"
-                  height={400}
-                  src="/gh5.jpg" // 이미지 파일 경로 수정
-                  style={{
-                    aspectRatio: "500/400",
-                    objectFit: "cover",
-                  }}
-                  width={500}
-                />
-                <div className="bg-white p-4 dark:bg-gray-950">
-                  <h3 className="font-bold text-xl">캐릭터 컨셉 일러스트</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    인형 회복술사
-                  </p>
-                </div>
-              </div>
-              <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
-                <Link className="absolute inset-0 z-10" href="#">
-                  <span className="sr-only">View Project</span>
-                </Link>
-                <img
-                  alt="Project 3"
-                  className="object-cover w-full h-64"
-                  height={400}
-                  src="/gh3.jpg" // 이미지 파일 경로 수정
-                  style={{
-                    aspectRatio: "500/400",
-                    objectFit: "cover",
-                  }}
-                  width={500}
-                />
-                <div className="bg-white p-4 dark:bg-gray-950">
-                  <h3 className="font-bold text-xl">캐릭터 컨셉 일러스트</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    용족 컨셉 케릭터 디자인
-                  </p>
-                </div>
-              </div>
-              <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
-                <Link className="absolute inset-0 z-10" href="#">
-                  <span className="sr-only">View Project</span>
-                </Link>
-                <img
-                  alt="Project 4"
-                  className="object-cover w-full h-64"
-                  height={400}
-                  src="/gh4.jpg" // 이미지 파일 경로 수정
-                  style={{
-                    aspectRatio: "500/400",
-                    objectFit: "cover",
-                  }}
-                  width={500}
-                />
-                <div className="bg-white p-4 dark:bg-gray-950">
-                  <h3 className="font-bold text-xl">캐릭터 컨셉 일러스트</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    어쎄신 컨셉 캐릭터 디자인
-                  </p>
-                </div>
-              </div>
-              <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
-                <Link className="absolute inset-0 z-10" href="#">
-                  <span className="sr-only">View Project</span>
-                </Link>
-                <img
-                  alt="Project 5"
-                  className="object-cover w-full h-64"
-                  height={400}
-                  src="/gh6.jpg" // 이미지 파일 경로 수정
-                  style={{
-                    aspectRatio: "500/400",
-                    objectFit: "cover",
-                  }}
-                  width={500}
-                />
-                <div className="bg-white p-4 dark:bg-gray-950">
-                  <h3 className="font-bold text-xl">캐릭터 컨셉 일러스트</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    기사 컨셉 디자인
-                  </p>
-                </div>
-              </div>
-              <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
-                <Link className="absolute inset-0 z-10" href="#">
-                  <span className="sr-only">View Project</span>
-                </Link>
-                <img
-                  alt="Project 6"
-                  className="object-cover w-full h-64"
-                  height={400}
-                  src="/gh9.jpg" // 이미지 파일 경로 수정
-                  style={{
-                    aspectRatio: "500/400",
-                    objectFit: "cover",
-                  }}
-                  width={500}
-                />
-                <div className="bg-white p-4 dark:bg-gray-950">
-                  <h3 className="font-bold text-xl">캐릭터 디자인</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    마녀 케릭터 일러스트
-                  </p>
-                </div>
-              </div>
-            </div>
+           <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
+  <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+    <Link className="absolute inset-0 z-10" href="/gh2.jpg" target="_blank">
+      <span className="sr-only">View Project</span>
+    </Link>
+    <img
+      alt="Project 1"
+      className="object-cover w-full h-64"
+      height={400}
+      src="/gh2.jpg" // 이미지 파일 경로 수정
+      style={{
+        aspectRatio: "500/400",
+        objectFit: "cover",
+      }}
+      width={500}
+    />
+    <div className="bg-white p-4 dark:bg-gray-950">
+      <h3 className="font-bold text-xl">캐릭터 일러스트</h3>
+      <p className="text-sm text-gray-500 dark:text-gray-400">
+        두상 일러스트
+      </p>
+    </div>
+  </div>
+  <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+    <Link className="absolute inset-0 z-10" href="/gh5.jpg" target="_blank">
+      <span className="sr-only">View Project</span>
+    </Link>
+    <img
+      alt="Project 2"
+      className="object-cover w-full h-64"
+      height={400}
+      src="/gh5.jpg" // 이미지 파일 경로 수정
+      style={{
+        aspectRatio: "500/400",
+        objectFit: "cover",
+      }}
+      width={500}
+    />
+    <div className="bg-white p-4 dark:bg-gray-950">
+      <h3 className="font-bold text-xl">캐릭터 컨셉 일러스트</h3>
+      <p className="text-sm text-gray-500 dark:text-gray-400">
+        인형 회복술사
+      </p>
+    </div>
+  </div>
+  <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+    <Link className="absolute inset-0 z-10" href="/gh3.jpg" target="_blank">
+      <span className="sr-only">View Project</span>
+    </Link>
+    <img
+      alt="Project 3"
+      className="object-cover w-full h-64"
+      height={400}
+      src="/gh3.jpg" // 이미지 파일 경로 수정
+      style={{
+        aspectRatio: "500/400",
+        objectFit: "cover",
+      }}
+      width={500}
+    />
+    <div className="bg-white p-4 dark:bg-gray-950">
+      <h3 className="font-bold text-xl">캐릭터 컨셉 일러스트</h3>
+      <p className="text-sm text-gray-500 dark:text-gray-400">
+        용족 컨셉 케릭터 디자인
+      </p>
+    </div>
+  </div>
+  <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+    <Link className="absolute inset-0 z-10" href="/gh4.jpg" target="_blank">
+      <span className="sr-only">View Project</span>
+    </Link>
+    <img
+      alt="Project 4"
+      className="object-cover w-full h-64"
+      height={400}
+      src="/gh4.jpg" // 이미지 파일 경로 수정
+      style={{
+        aspectRatio: "500/400",
+        objectFit: "cover",
+      }}
+      width={500}
+    />
+    <div className="bg-white p-4 dark:bg-gray-950">
+      <h3 className="font-bold text-xl">캐릭터 컨셉 일러스트</h3>
+      <p className="text-sm text-gray-500 dark:text-gray-400">
+        어쎄신 컨셉 캐릭터 디자인
+      </p>
+    </div>
+  </div>
+  <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+    <Link className="absolute inset-0 z-10" href="/gh6.jpg" target="_blank">
+      <span className="sr-only">View Project</span>
+    </Link>
+    <img
+      alt="Project 5"
+      className="object-cover w-full h-64"
+      height={400}
+      src="/gh6.jpg" // 이미지 파일 경로 수정
+      style={{
+        aspectRatio: "500/400",
+        objectFit: "cover",
+      }}
+      width={500}
+    />
+    <div className="bg-white p-4 dark:bg-gray-950">
+      <h3 className="font-bold text-xl">캐릭터 컨셉 일러스트</h3>
+      <p className="text-sm text-gray-500 dark:text-gray-400">
+        기사 컨셉 디자인
+      </p>
+    </div>
+  </div>
+  <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+    <Link className="absolute inset-0 z-10" href="/gh9.jpg" target="_blank">
+      <span className="sr-only">View Project</span>
+    </Link>
+    <img
+      alt="Project 6"
+      className="object-cover w-full h-64"
+      height={400}
+      src="/gh9.jpg" // 이미지 파일 경로 수정
+      style={{
+        aspectRatio: "500/400",
+        objectFit: "cover",
+      }}
+      width={500}
+    />
+    <div className="bg-white p-4 dark:bg-gray-950">
+      <h3 className="font-bold text-xl">캐릭터 디자인</h3>
+      <p className="text-sm text-gray-500 dark:text-gray-400">
+        마녀 케릭터 일러스트
+      </p>
+    </div>
+  </div>
+</div>
+
           </div>
         </section>
       </main>
-      <div className="flex justify-center items-center min-h-[100vh]">
-        <footer className="bg-gray-100 p-6 md:py-12 w-full max-w-7xl dark:bg-gray-800">
-          <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-sm">
-            <div className="grid gap-1">
-              <h3 className="font-semibold"></h3>
-              <p>
-                
-                <br />
-                
-                <br />
-                
-                <br />
-                
-              </p>
-            </div>
-            <div className="grid gap-1">
-              <h3 className="font-semibold"></h3>
-              <Link href="#"></Link>
-              <Link href="#"></Link>
-              <Link href="#"></Link>
-              <Link href="#"></Link>
-            </div>
-            <div className="grid gap-1">
-              <h3 className="font-semibold">연락처 010-2618-4713</h3>
-              <form className="flex space-x-2">
-                <Input className="max-w-lg flex-1" placeholder="Enter your email" type="email" />
-                <Button type="submit">Submit</Button>
-              </form>
-            </div>
+      <footer className="bg-gray-100 p-4 md:py-8 w-full max-w-7xl dark:bg-gray-800">
+        <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+          <div className="grid gap-1">
+            <h3 className="font-semibold"></h3>
+            <p>
+              <br />
+              <br />
+              <br />
+            </p>
           </div>
-        </footer>
-      </div>
+          <div className="grid gap-1">
+            <h3 className="font-semibold"></h3>
+            <Link href="#"></Link>
+            <Link href="#"></Link>
+            <Link href="#"></Link>
+            <Link href="#"></Link>
+          </div>
+          <div className="grid gap-1">
+            <h3 className="font-semibold">연락처 010-2618-4713</h3>
+            <form className="flex space-x-2">
+              <Input className="max-w-lg flex-1" placeholder="Enter your email" type="email" />
+              <Button type="submit">Submit</Button>
+            </form>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
