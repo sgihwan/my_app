@@ -224,7 +224,7 @@ export default function Home() {
             <Link href="#"></Link>
           </div>
           <div className="grid gap-1">
-            <h3 className="font-semibold">연락처 010-2618-4713 이메일 whydonot1234@naver.com</h3>
+            <h3 className="font-semibold">연락처 010-2618-4713</h3>
           </div>
         </div>
       </footer>
