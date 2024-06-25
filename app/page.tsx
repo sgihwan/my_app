@@ -214,10 +214,6 @@ export default function Home() {
           </div>
           <div className="grid gap-1">
             <h3 className="font-semibold"></h3>
-            <Link href="#"></Link>
-            <Link href="#"></Link>
-            <Link href="#"></Link>
-            <Link href="#"></Link>
           </div>
           <div className="grid gap-1">
             <h3 className="font-semibold">연락처 010-2618-4713</h3>
