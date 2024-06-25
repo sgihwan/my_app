@@ -225,10 +225,6 @@ export default function Home() {
           </div>
           <div className="grid gap-1">
             <h3 className="font-semibold">연락처 010-2618-4713</h3>
-            <form className="flex space-x-2">
-              <Input className="max-w-lg flex-1" placeholder="Enter your email" type="email" />
-              <Button type="submit">Submit</Button>
-            </form>
           </div>
         </div>
       </footer>
